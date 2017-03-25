@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.932961">
+<testcase classname="Find flight" name="Login and find flight for one passenger online" time="22.932961">
+<system-out><![CDATA[Given I navigate to mercury tour website....................................passed
+And mercury tour logo is displayed..........................................passed
+When I enter my user name "another" on the homepage.........................passed
+And I enter my Password "tester" on the homepage............................passed
+And I click sign-In.........................................................passed
+And the flight finder page displayed correctly..............................passed
+And I select travel type "roundtrip"........................................passed
+And I select "1" passenger..................................................passed
+And I select departing from "New York" dropdown.............................passed
+And I select departure month "June".........................................passed
+And I select departure day "3"..............................................passed
+And I select arriving In "London"...........................................passed
+And I select return month "7"...............................................passed
+And I select return day "24"................................................passed
+And I Select Service Class "First class"....................................passed
+And I select airline "Unified Airlines".....................................passed
+And I click continue button on flight finder page...........................passed
+And Select flight page is displayed.........................................passed
+And I select "Blue Skies Airlines 361"flight under depart section...........passed
+And I select "Unified Airlines 633"flight under return section..............passed
+And I click continue button on the select flight page.......................passed
+And book a flight page is displayed.........................................passed
+And I enter first name"John"................................................passed
+And I enter last name"Smith"................................................passed
+And I select meal "Diabetic"................................................passed
+And I select card type "MasterCard".........................................passed
+And I enter credit card number "4319887766666"..............................passed
+And I select the credit card expiration month "11"..........................passed
+And I select the credit card expiration year "2000".........................passed
+And I enter first name as it appear on credit card "John"...................passed
+And I enter middle name as it appear on credit card "-".....................passed
+And I enter last name on credit card "Terry"................................passed
+And I click the checkbox for ticketless travel..............................passed
+And I enter the firstline of the credit card billing address"1325 Borregas Ave.".passed
+And I enter the secondline of the credit card billing address"Selenuim street".passed
+And I enter the city of the credit card billing address"Sunnyvale"..........passed
+And I enter the state or province from the credit card billing address"CA"..passed
+And I enter the postcode of the billing address "94089".....................passed
+And I select the country "UNITED STATES"....................................passed
+And I click the check box for the same billing address......................passed
+And I click the secure purchase button......................................passed
+Then the Flight Confirmation page is displayed..............................passed
+And Flight confirmation number is displayed.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,104 @@
+Feature: Find flight
+  In order to find flight in to mercury tour website  
+  As mercury tour website customer
+  I want to be able to find flight after login
+
+  Scenario Outline: Login and find flight for one passenger online                                      [90m# features/FindFlight.feature:7[0m
+    [36mGiven [0m[36mI navigate to mercury tour website[0m
+    [36mAnd [0m[36mmercury tour logo is displayed[0m
+    [36mWhen [0m[36mI enter my user name "<UserName>" on the homepage[0m
+    [36mAnd [0m[36mI enter my Password "<password>" on the homepage[0m
+    [36mAnd [0m[36mI click sign-In[0m
+    [36mAnd [0m[36mthe flight finder page displayed correctly[0m
+    [36mAnd [0m[36mI select travel type "<tripType>"[0m
+    [36mAnd [0m[36mI select "<numberOfPassenger>" passenger[0m
+    [36mAnd [0m[36mI select departing from "<depatureCity>" dropdown[0m
+    [36mAnd [0m[36mI select departure month "<DepatureMonth>"[0m
+    [36mAnd [0m[36mI select departure day "<DepatureDay>"[0m
+    [36mAnd [0m[36mI select arriving In "<arrivalCity>"[0m
+    [36mAnd [0m[36mI select return month "<returnMonth>"[0m
+    [36mAnd [0m[36mI select return day "<returnDay>"[0m
+    [36mAnd [0m[36mI Select Service Class "<serviceClass>"[0m
+    [36mAnd [0m[36mI select airline "<airline>"[0m
+    [36mAnd [0m[36mI click continue button on flight finder page[0m
+    [36mAnd [0m[36mSelect flight page is displayed[0m
+    [36mAnd [0m[36mI select "<depart>"flight under depart section[0m
+    [36mAnd [0m[36mI select "<return>"flight under return section[0m
+    [36mAnd [0m[36mI click continue button on the select flight page[0m
+    [36mAnd [0m[36mbook a flight page is displayed[0m
+    [36mAnd [0m[36mI enter first name"<firstName>"[0m
+    [36mAnd [0m[36mI enter last name"<lastName>"[0m
+    [36mAnd [0m[36mI select meal "<Meal>"[0m
+    [36mAnd [0m[36mI select card type "<creditCardType>"[0m
+    [36mAnd [0m[36mI enter credit card number "<creditCardNum>"[0m
+    [36mAnd [0m[36mI select the credit card expiration month "<creditCardExpirationMonth>"[0m
+    [36mAnd [0m[36mI select the credit card expiration year "<creditCardExpirationYear>"[0m
+    [36mAnd [0m[36mI enter first name as it appear on credit card "<creditCardOwnerFirstName>"[0m
+    [36mAnd [0m[36mI enter middle name as it appear on credit card "<creditCardOwnerMidleName>"[0m
+    [36mAnd [0m[36mI enter last name on credit card "<creditCardOwnerLastName>"[0m
+    [36mAnd [0m[36mI click the checkbox for ticketless travel[0m
+    [36mAnd [0m[36mI enter the firstline of the credit card billing address"<creditCardBillingAddress1>"[0m
+    [36mAnd [0m[36mI enter the secondline of the credit card billing address"<creditCardBillingAddress2>"[0m
+    [36mAnd [0m[36mI enter the city of the credit card billing address"<creditCardBillingCity>"[0m
+    [36mAnd [0m[36mI enter the state or province from the credit card billing address"<creditCardBillingProvince>"[0m
+    [36mAnd [0m[36mI enter the postcode of the billing address "<postcode>"[0m
+    [36mAnd [0m[36mI select the country "<country>"[0m
+    [36mAnd [0m[36mI click the check box for the same billing address[0m
+    [36mAnd [0m[36mI click the secure purchase button[0m
+    [36mThen [0m[36mthe Flight Confirmation page is displayed[0m
+    [36mAnd [0m[36mFlight confirmation number is displayed[0m
+
+    Scenarios: 
+
+  Scenario Outline: Login and find flight for one passenger online                   [90m# features/FindFlight.feature:54[0m
+    [32mGiven [0m[32mI navigate to mercury tour website[0m                                         [90m# RegistrationSteps.i_navigate_to_mercury_tour_website()[0m
+    [32mAnd [0m[32mmercury tour logo is displayed[0m                                               [90m# RegistrationSteps.mercury_tour_logo_is_displayed()[0m
+    [32mWhen [0m[32mI enter my user name "[0m[32m[1manother[0m[32m" on the homepage[0m                              [90m# LoginAndBookFlightSteps.i_enter_my_user_name_on_the_homepage(String)[0m
+    [32mAnd [0m[32mI enter my Password "[0m[32m[1mtester[0m[32m" on the homepage[0m                                 [90m# LoginAndBookFlightSteps.i_enter_my_Password_on_the_homepage(String)[0m
+    [32mAnd [0m[32mI click sign-In[0m                                                              [90m# LoginAndBookFlightSteps.i_click_sign_In()[0m
+    [32mAnd [0m[32mthe flight finder page displayed correctly[0m                                   [90m# LoginSteps.the_flight_finder_page_displayed_correctly()[0m
+    [32mAnd [0m[32mI select travel type "[0m[32m[1mroundtrip[0m[32m"[0m                                             [90m# LoginAndBookFlightSteps.i_select_travel_type(String)[0m
+    [32mAnd [0m[32mI select "[0m[32m[1m1[0m[32m" passenger[0m                                                       [90m# LoginAndBookFlightSteps.i_select_passenger(String)[0m
+    [32mAnd [0m[32mI select departing from "[0m[32m[1mNew York[0m[32m" dropdown[0m                                  [90m# LoginAndBookFlightSteps.i_select_departing_from_dropdown(String)[0m
+    [32mAnd [0m[32mI select departure month "[0m[32m[1mJune[0m[32m"[0m                                              [90m# LoginAndBookFlightSteps.i_select_departure_month(String)[0m
+    [32mAnd [0m[32mI select departure day "[0m[32m[1m3[0m[32m"[0m                                                   [90m# LoginAndBookFlightSteps.i_select_departure_day(String)[0m
+    [32mAnd [0m[32mI select arriving In "[0m[32m[1mLondon[0m[32m"[0m                                                [90m# LoginAndBookFlightSteps.i_select_arriving_In(String)[0m
+    [32mAnd [0m[32mI select return month "[0m[32m[1m7[0m[32m"[0m                                                    [90m# LoginAndBookFlightSteps.i_select_return_month(String)[0m
+    [32mAnd [0m[32mI select return day "[0m[32m[1m24[0m[32m"[0m                                                     [90m# LoginAndBookFlightSteps.i_select_return_day(String)[0m
+    [32mAnd [0m[32mI Select Service Class "[0m[32m[1mFirst class[0m[32m"[0m                                         [90m# LoginAndBookFlightSteps.i_Select_Service_Class(String)[0m
+    [32mAnd [0m[32mI select airline "[0m[32m[1mUnified Airlines[0m[32m"[0m                                          [90m# LoginAndBookFlightSteps.i_select_airline(String)[0m
+    [32mAnd [0m[32mI click continue button on flight finder page[0m                                [90m# LoginAndBookFlightSteps.i_click_continue_button_on_flight_finder_page()[0m
+    [32mAnd [0m[32mSelect flight page is displayed[0m                                              [90m# LoginAndBookFlightSteps.select_flight_page_is_displayed()[0m
+    [32mAnd [0m[32mI select "[0m[32m[1mBlue Skies Airlines 361[0m[32m"flight under depart section[0m                [90m# LoginAndBookFlightSteps.i_select_flight_under_depart_section(String)[0m
+    [32mAnd [0m[32mI select "[0m[32m[1mUnified Airlines 633[0m[32m"flight under return section[0m                   [90m# LoginAndBookFlightSteps.i_select_flight_under_return_section(String)[0m
+    [32mAnd [0m[32mI click continue button on the select flight page[0m                            [90m# LoginAndBookFlightSteps.i_click_continue_button_on_the_select_flight_page()[0m
+    [32mAnd [0m[32mbook a flight page is displayed[0m                                              [90m# LoginAndBookFlightSteps.book_a_flight_page_is_displayed()[0m
+    [32mAnd [0m[32mI enter first name"[0m[32m[1mJohn[0m[32m"[0m                                                     [90m# LoginAndBookFlightSteps.i_enter_first_name(String)[0m
+    [32mAnd [0m[32mI enter last name"[0m[32m[1mSmith[0m[32m"[0m                                                     [90m# LoginAndBookFlightSteps.i_enter_last_name(String)[0m
+    [32mAnd [0m[32mI select meal "[0m[32m[1mDiabetic[0m[32m"[0m                                                     [90m# LoginAndBookFlightSteps.i_select_meal(String)[0m
+    [32mAnd [0m[32mI select card type "[0m[32m[1mMasterCard[0m[32m"[0m                                              [90m# LoginAndBookFlightSteps.i_select_card_type(String)[0m
+    [32mAnd [0m[32mI enter credit card number "[0m[32m[1m4319887766666[0m[32m"[0m                                   [90m# LoginAndBookFlightSteps.i_enter_credit_card_number(String)[0m
+    [32mAnd [0m[32mI select the credit card expiration month "[0m[32m[1m11[0m[32m"[0m                               [90m# LoginAndBookFlightSteps.i_select_the_credit_card_expiration_month(String)[0m
+    [32mAnd [0m[32mI select the credit card expiration year "[0m[32m[1m2000[0m[32m"[0m                              [90m# LoginAndBookFlightSteps.i_select_the_credit_card_expiration_year(String)[0m
+    [32mAnd [0m[32mI enter first name as it appear on credit card "[0m[32m[1mJohn[0m[32m"[0m                        [90m# LoginAndBookFlightSteps.i_enter_first_name_as_it_appear_on_credit_card(String)[0m
+    [32mAnd [0m[32mI enter middle name as it appear on credit card "[0m[32m[1m-[0m[32m"[0m                          [90m# LoginAndBookFlightSteps.i_enter_middle_name_as_it_appear_on_credit_card(String)[0m
+    [32mAnd [0m[32mI enter last name on credit card "[0m[32m[1mTerry[0m[32m"[0m                                     [90m# LoginAndBookFlightSteps.i_enter_last_name_on_credit_card(String)[0m
+    [32mAnd [0m[32mI click the checkbox for ticketless travel[0m                                   [90m# LoginAndBookFlightSteps.i_click_the_checkbox_for_ticketless_travel()[0m
+    [32mAnd [0m[32mI enter the firstline of the credit card billing address"[0m[32m[1m1325 Borregas Ave.[0m[32m"[0m [90m# LoginAndBookFlightSteps.i_enter_the_firstline_of_the_credit_card_billing_address(String)[0m
+    [32mAnd [0m[32mI enter the secondline of the credit card billing address"[0m[32m[1mSelenuim street[0m[32m"[0m   [90m# LoginAndBookFlightSteps.i_enter_the_secondline_of_the_credit_card_billing_address(String)[0m
+    [32mAnd [0m[32mI enter the city of the credit card billing address"[0m[32m[1mSunnyvale[0m[32m"[0m               [90m# LoginAndBookFlightSteps.i_enter_the_city_of_the_credit_card_billing_address(String)[0m
+    [32mAnd [0m[32mI enter the state or province from the credit card billing address"[0m[32m[1mCA[0m[32m"[0m       [90m# LoginAndBookFlightSteps.i_enter_the_state_or_province_from_the_credit_card_billing_address(String)[0m
+    [32mAnd [0m[32mI enter the postcode of the billing address "[0m[32m[1m94089[0m[32m"[0m                          [90m# LoginAndBookFlightSteps.i_enter_the_postcode_of_the_billing_address(String)[0m
+    [32mAnd [0m[32mI select the country "[0m[32m[1mUNITED STATES[0m[32m"[0m                                         [90m# LoginAndBookFlightSteps.i_select_the_country(String)[0m
+    [32mAnd [0m[32mI click the check box for the same billing address[0m                           [90m# LoginAndBookFlightSteps.i_click_the_check_box_for_the_same_billing_address()[0m
+    [32mAnd [0m[32mI click the secure purchase button[0m                                           [90m# LoginAndBookFlightSteps.i_click_the_secure_purchase_button()[0m
+    [32mThen [0m[32mthe Flight Confirmation page is displayed[0m                                   [90m# LoginAndBookFlightSteps.the_Flight_Confirmation_page_is_displayed()[0m
+    [32mAnd [0m[32mFlight confirmation number is displayed[0m                                      [90m# LoginAndBookFlightSteps.flight_confirmation_number_is_displayed()[0m
+Feature: Mercury Tour login process
+  In order to sign in to mercury tour  
+  As mercury tour customer
+  I want to be able to manage my account online
+Feature: Mercury Tour registration process
+  In order to register to mercury tour  
+  As a potential mercury tour customer
+  I want to be able to complete the registration online

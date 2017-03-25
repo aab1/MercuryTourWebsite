@@ -1,0 +1,776 @@
+[
+  {
+    "source": "^I select airline \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select airline \"Unified Airlines\"",
+        "aggregatedDurations": {
+          "average": 0.108390047,
+          "median": 0.108390047
+        },
+        "durations": [
+          {
+            "duration": 0.108390047,
+            "location": "features/FindFlight.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select \"([^\"]*)\"flight under depart section$",
+    "steps": [
+      {
+        "name": "I select \"Blue Skies Airlines 361\"flight under depart section",
+        "aggregatedDurations": {
+          "average": 0.094323449,
+          "median": 0.094323449
+        },
+        "durations": [
+          {
+            "duration": 0.094323449,
+            "location": "features/FindFlight.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select return day \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select return day \"24\"",
+        "aggregatedDurations": {
+          "average": 0.104335883,
+          "median": 0.104335883
+        },
+        "durations": [
+          {
+            "duration": 0.104335883,
+            "location": "features/FindFlight.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click the checkbox for ticketless travel$",
+    "steps": [
+      {
+        "name": "I click the checkbox for ticketless travel",
+        "aggregatedDurations": {
+          "average": 0.07091916,
+          "median": 0.07091916
+        },
+        "durations": [
+          {
+            "duration": 0.07091916,
+            "location": "features/FindFlight.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigate to mercury tour website$",
+    "steps": [
+      {
+        "name": "I navigate to mercury tour website",
+        "aggregatedDurations": {
+          "average": 1.912561976,
+          "median": 1.912561976
+        },
+        "durations": [
+          {
+            "duration": 1.912561976,
+            "location": "features/FindFlight.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter first name\"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter first name\"John\"",
+        "aggregatedDurations": {
+          "average": 0.10249678,
+          "median": 0.10249678
+        },
+        "durations": [
+          {
+            "duration": 0.10249678,
+            "location": "features/FindFlight.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select \"([^\"]*)\" passenger$",
+    "steps": [
+      {
+        "name": "I select \"1\" passenger",
+        "aggregatedDurations": {
+          "average": 0.095607933,
+          "median": 0.095607933
+        },
+        "durations": [
+          {
+            "duration": 0.095607933,
+            "location": "features/FindFlight.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter middle name as it appear on credit card \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter middle name as it appear on credit card \"-\"",
+        "aggregatedDurations": {
+          "average": 0.092767548,
+          "median": 0.092767548
+        },
+        "durations": [
+          {
+            "duration": 0.092767548,
+            "location": "features/FindFlight.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click continue button on flight finder page$",
+    "steps": [
+      {
+        "name": "I click continue button on flight finder page",
+        "aggregatedDurations": {
+          "average": 0.51152557,
+          "median": 0.51152557
+        },
+        "durations": [
+          {
+            "duration": 0.51152557,
+            "location": "features/FindFlight.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Flight confirmation number is displayed$",
+    "steps": [
+      {
+        "name": "Flight confirmation number is displayed",
+        "aggregatedDurations": {
+          "average": 0.00003003,
+          "median": 0.00003003
+        },
+        "durations": [
+          {
+            "duration": 0.00003003,
+            "location": "features/FindFlight.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^mercury tour logo is displayed$",
+    "steps": [
+      {
+        "name": "mercury tour logo is displayed",
+        "aggregatedDurations": {
+          "average": 0.10668133,
+          "median": 0.10668133
+        },
+        "durations": [
+          {
+            "duration": 0.10668133,
+            "location": "features/FindFlight.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the flight finder page displayed correctly$",
+    "steps": [
+      {
+        "name": "the flight finder page displayed correctly",
+        "aggregatedDurations": {
+          "average": 0.085892005,
+          "median": 0.085892005
+        },
+        "durations": [
+          {
+            "duration": 0.085892005,
+            "location": "features/FindFlight.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select meal \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select meal \"Diabetic\"",
+        "aggregatedDurations": {
+          "average": 0.110380825,
+          "median": 0.110380825
+        },
+        "durations": [
+          {
+            "duration": 0.110380825,
+            "location": "features/FindFlight.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select departing from \"([^\"]*)\" dropdown$",
+    "steps": [
+      {
+        "name": "I select departing from \"New York\" dropdown",
+        "aggregatedDurations": {
+          "average": 0.110207482,
+          "median": 0.110207482
+        },
+        "durations": [
+          {
+            "duration": 0.110207482,
+            "location": "features/FindFlight.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter credit card number \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter credit card number \"4319887766666\"",
+        "aggregatedDurations": {
+          "average": 0.104266698,
+          "median": 0.104266698
+        },
+        "durations": [
+          {
+            "duration": 0.104266698,
+            "location": "features/FindFlight.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select the credit card expiration year \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select the credit card expiration year \"2000\"",
+        "aggregatedDurations": {
+          "average": 0.110603206,
+          "median": 0.110603206
+        },
+        "durations": [
+          {
+            "duration": 0.110603206,
+            "location": "features/FindFlight.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter last name\"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter last name\"Smith\"",
+        "aggregatedDurations": {
+          "average": 0.093926585,
+          "median": 0.093926585
+        },
+        "durations": [
+          {
+            "duration": 0.093926585,
+            "location": "features/FindFlight.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the firstline of the credit card billing address\"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the firstline of the credit card billing address\"1325 Borregas Ave.\"",
+        "aggregatedDurations": {
+          "average": 0.126548441,
+          "median": 0.126548441
+        },
+        "durations": [
+          {
+            "duration": 0.126548441,
+            "location": "features/FindFlight.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^book a flight page is displayed$",
+    "steps": [
+      {
+        "name": "book a flight page is displayed",
+        "aggregatedDurations": {
+          "average": 0.042729704,
+          "median": 0.042729704
+        },
+        "durations": [
+          {
+            "duration": 0.042729704,
+            "location": "features/FindFlight.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select return month \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select return month \"7\"",
+        "aggregatedDurations": {
+          "average": 0.106774083,
+          "median": 0.106774083
+        },
+        "durations": [
+          {
+            "duration": 0.106774083,
+            "location": "features/FindFlight.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the postcode of the billing address \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the postcode of the billing address \"94089\"",
+        "aggregatedDurations": {
+          "average": 0.104254534,
+          "median": 0.104254534
+        },
+        "durations": [
+          {
+            "duration": 0.104254534,
+            "location": "features/FindFlight.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select card type \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select card type \"MasterCard\"",
+        "aggregatedDurations": {
+          "average": 0.1034973,
+          "median": 0.1034973
+        },
+        "durations": [
+          {
+            "duration": 0.1034973,
+            "location": "features/FindFlight.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click continue button on the select flight page$",
+    "steps": [
+      {
+        "name": "I click continue button on the select flight page",
+        "aggregatedDurations": {
+          "average": 0.857478953,
+          "median": 0.857478953
+        },
+        "durations": [
+          {
+            "duration": 0.857478953,
+            "location": "features/FindFlight.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter first name as it appear on credit card \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter first name as it appear on credit card \"John\"",
+        "aggregatedDurations": {
+          "average": 0.09889612,
+          "median": 0.09889612
+        },
+        "durations": [
+          {
+            "duration": 0.09889612,
+            "location": "features/FindFlight.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click the secure purchase button$",
+    "steps": [
+      {
+        "name": "I click the secure purchase button",
+        "aggregatedDurations": {
+          "average": 0.956227199,
+          "median": 0.956227199
+        },
+        "durations": [
+          {
+            "duration": 0.956227199,
+            "location": "features/FindFlight.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select travel type \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select travel type \"roundtrip\"",
+        "aggregatedDurations": {
+          "average": 0.073441371,
+          "median": 0.073441371
+        },
+        "durations": [
+          {
+            "duration": 0.073441371,
+            "location": "features/FindFlight.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click sign-In$",
+    "steps": [
+      {
+        "name": "I click sign-In",
+        "aggregatedDurations": {
+          "average": 1.356642841,
+          "median": 1.356642841
+        },
+        "durations": [
+          {
+            "duration": 1.356642841,
+            "location": "features/FindFlight.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select the credit card expiration month \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select the credit card expiration month \"11\"",
+        "aggregatedDurations": {
+          "average": 0.106632292,
+          "median": 0.106632292
+        },
+        "durations": [
+          {
+            "duration": 0.106632292,
+            "location": "features/FindFlight.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the Flight Confirmation page is displayed$",
+    "steps": [
+      {
+        "name": "the Flight Confirmation page is displayed",
+        "aggregatedDurations": {
+          "average": 0.02324425,
+          "median": 0.02324425
+        },
+        "durations": [
+          {
+            "duration": 0.02324425,
+            "location": "features/FindFlight.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select arriving In \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select arriving In \"London\"",
+        "aggregatedDurations": {
+          "average": 0.115262167,
+          "median": 0.115262167
+        },
+        "durations": [
+          {
+            "duration": 0.115262167,
+            "location": "features/FindFlight.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I Select Service Class \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I Select Service Class \"First class\"",
+        "aggregatedDurations": {
+          "average": 0.090473799,
+          "median": 0.090473799
+        },
+        "durations": [
+          {
+            "duration": 0.090473799,
+            "location": "features/FindFlight.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click the check box for the same billing address$",
+    "steps": [
+      {
+        "name": "I click the check box for the same billing address",
+        "aggregatedDurations": {
+          "average": 3.066913655,
+          "median": 3.066913655
+        },
+        "durations": [
+          {
+            "duration": 3.066913655,
+            "location": "features/FindFlight.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the secondline of the credit card billing address\"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the secondline of the credit card billing address\"Selenuim street\"",
+        "aggregatedDurations": {
+          "average": 2.13790238,
+          "median": 2.13790238
+        },
+        "durations": [
+          {
+            "duration": 2.13790238,
+            "location": "features/FindFlight.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the state or province from the credit card billing address\"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the state or province from the credit card billing address\"CA\"",
+        "aggregatedDurations": {
+          "average": 0.09836887,
+          "median": 0.09836887
+        },
+        "durations": [
+          {
+            "duration": 0.09836887,
+            "location": "features/FindFlight.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select \"([^\"]*)\"flight under return section$",
+    "steps": [
+      {
+        "name": "I select \"Unified Airlines 633\"flight under return section",
+        "aggregatedDurations": {
+          "average": 0.077913685,
+          "median": 0.077913685
+        },
+        "durations": [
+          {
+            "duration": 0.077913685,
+            "location": "features/FindFlight.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter my user name \"([^\"]*)\" on the homepage$",
+    "steps": [
+      {
+        "name": "I enter my user name \"another\" on the homepage",
+        "aggregatedDurations": {
+          "average": 0.098941356,
+          "median": 0.098941356
+        },
+        "durations": [
+          {
+            "duration": 0.098941356,
+            "location": "features/FindFlight.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select the country \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select the country \"UNITED STATES\"",
+        "aggregatedDurations": {
+          "average": 0.079597693,
+          "median": 0.079597693
+        },
+        "durations": [
+          {
+            "duration": 0.079597693,
+            "location": "features/FindFlight.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select flight page is displayed$",
+    "steps": [
+      {
+        "name": "Select flight page is displayed",
+        "aggregatedDurations": {
+          "average": 0.043039136,
+          "median": 0.043039136
+        },
+        "durations": [
+          {
+            "duration": 0.043039136,
+            "location": "features/FindFlight.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select departure month \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select departure month \"June\"",
+        "aggregatedDurations": {
+          "average": 0.109401972,
+          "median": 0.109401972
+        },
+        "durations": [
+          {
+            "duration": 0.109401972,
+            "location": "features/FindFlight.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter my Password \"([^\"]*)\" on the homepage$",
+    "steps": [
+      {
+        "name": "I enter my Password \"tester\" on the homepage",
+        "aggregatedDurations": {
+          "average": 0.096333995,
+          "median": 0.096333995
+        },
+        "durations": [
+          {
+            "duration": 0.096333995,
+            "location": "features/FindFlight.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select departure day \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I select departure day \"3\"",
+        "aggregatedDurations": {
+          "average": 0.103577509,
+          "median": 0.103577509
+        },
+        "durations": [
+          {
+            "duration": 0.103577509,
+            "location": "features/FindFlight.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter last name on credit card \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter last name on credit card \"Terry\"",
+        "aggregatedDurations": {
+          "average": 0.097322731,
+          "median": 0.097322731
+        },
+        "durations": [
+          {
+            "duration": 0.097322731,
+            "location": "features/FindFlight.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the city of the credit card billing address\"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the city of the credit card billing address\"Sunnyvale\"",
+        "aggregatedDurations": {
+          "average": 0.123507343,
+          "median": 0.123507343
+        },
+        "durations": [
+          {
+            "duration": 0.123507343,
+            "location": "features/FindFlight.feature:43"
+          }
+        ]
+      }
+    ]
+  }
+]
